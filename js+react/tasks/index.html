@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Задания на использование циклов и условий</title>
+</head>
+<body>
+
+<script>
+
+// 1. При помощи цикла выведите числа от 5 до 10 в консоль. 5 и 10 включительно. Цикл можно использовать любой
+// for (let i = 5; i <= 11; i++) {
+//     console.log(i);
+// }
+
+// 2. При помощи цикла for вывести числа от 20 до 10 в консоль. В обратном порядке (20, 19, 18...). Когда цикл дойдет до числа 13 - остановить весь цикл
+// for (let i = 20; i >= 10; i--) {
+//     if (i === 13) break;
+//     console.log(i);
+// }
+
+// 3. При помощи цикла for выведите чётные числа от 2 до 10 включительно
+// for (let i = 2; i <= 10; i++) { debugger
+//     if (i % 2 === 0) { debugger
+//         console.log(i); debugger
+//     }
+// }
+// Условие if внутри цикла проверяет деление числа при текущей итерации цикла for на наличие остатка. Если число четное, то остаток ноль, если не четное, например при делении числа 3 на 2, в остатке будет 1 и условие не выполнится.
+
+// 4. Перепишите цикл  for на вариант с while. Результат должен остаться точно таким же. Не создайте бесконечный цикл! Иначе браузер может зависнуть.
+
+// Цикл, который нужно переписать:
+//
+//     for (let i = 2; i <= 16; i++) {
+//         if (i % 2 === 0) {
+//             continue;
+//         } else {
+//             console.log(i);
+//         }
+//     }
+
+
+// Решение
+// let i = 2;
+// while (i <= 16) {
+//     if (i % 2 === 0) {
+//         i++;
+//         continue;
+//     } else {
+//         console.log(i);
+//     }
+//     i++;
+// }
+
+// 5. Заполните массив цифрами от 5 до 10 включительно. Помните, что элементы массива можно сформировать так же, как и обращаться к ним: arr[0]
+
+// function fifthTask() { debugger
+//     const arrayOfNumbers = []; debugger
+//
+//     for (let i = 5; i < 11; i++) { debugger
+//         arrayOfNumbers[i - 5] = i; debugger
+//     } debugger
+//
+//     console.log(arrayOfNumbers); debugger
+//     return arrayOfNumbers; debugger
+// }
+// fifthTask();
+
+// число i берется из каждого этапа цикла. в самый первый раз 5, и получается 5-5, затем 6-5, затем 7-5 и тп.
+// получается массив с индексами от 0 до 5
+
+</script>
+
+
+</body>
+</html>
