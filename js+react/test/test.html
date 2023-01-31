@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+
+// Тернарный оператор - наз так потому что в его работе участвуют аж 3 аргумента. Так же есть бинарные аргументи
+// 4 + 4 | 4 - это бинарный аргумент
+// +'4' | 4 - это унарный аргумент
+// ? - условие выполнилось
+// : - если условие ? не выполнилось
+
+// const num = '50';
+// if (num >= 50) {
+//     console.log('ok');
+// } else if (num < 50) {
+//     console.log('fail')
+// } else {
+//     console.log('sholud be a number')
+// }
+// (num === 50) ? console.log('ok') : (console.log('fail'));
+
+// const num = 50;
+// switch (num) {
+//     case 49:
+//         console.log('Неверно');
+//         break;
+//     case 50:
+//         console.log('good');
+//         break;
+//     default:
+//         console.log('must be a number');
+//         break;
+// }
+
+// Логические операторы
+// Результат логических операция - это результат булевых значений
+// && - проверяет правдивые результаты
+// || - или
+// ! - не
+
+// const hamburger = true;
+// const fries = true;
+// if (hamburger && fries) {
+//     console.log('Я сыт!')
+// }
+// console.log((hamburger && fries));
+
+
+// Циклы
+
+// let num = 50;
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// } while (num <= 55);
+
+// for (let i = 1; i < 8; i++) {
+//     console.log(num);
+//     num++;
+// }
+
+// for (let i = 1; i < 10; i++) {
+//     if (i === 6) {
+//         break;
+//     }
+//     console.log(i);
+// }
+
+// Вложенность циклов
+
+// for (let i = 0; i < 3; i++) {
+//     console.log(i);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(j);
+//     }
+// }
+
+// *
+// **
+// ***
+// ****
+// *****
+// ******
+
+// let result = '';
+// const length = 7;
+//
+// for (let i = 1; i < length; i++) {
+//     for (let j = 0; j < i; j++) {
+//         result += '*';
+//     }
+//     result += '\n';
+// }
+// console.log(result);
+
+// first: for (let i = 0; i < 3; i++) {
+//     console.log(`First level: ${i}`);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(`Second level: ${j}`);
+//         for (let k = 0; k < 3; k++) {
+//             if (k === 2) continue first;
+//             console.log(`Third level: ${k}`);
+//         }
+//     }
+// }
+
+let highFives = 0;
+++highFives;
+++highFives;
+--highFives;
+console.log(highFives);
+
+
+
+</script>
+
+
+</body>
+</html>
